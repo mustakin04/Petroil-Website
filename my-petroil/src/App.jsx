@@ -14,6 +14,7 @@ import Petromax from './Components/Petromax/Petromax';
 import Loren from './Components/Lorem/Loren';
 import Map from './Components/Map/Map';
 import Footer from './Components/Footer/Footer';
+import Last from './Components/last/last';
 
 function App() {
   
@@ -32,6 +33,7 @@ function App() {
       <Loren/>
       <Map/>
       <Footer></Footer>
+      <Last/>
     </>
   )
 }
