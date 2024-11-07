@@ -6,7 +6,7 @@ import PETROIl from "../../assets/Logo.png"
 
 const Navbar = () => {
   return (
-    <div className='bg-[#F40404] font-poppins'>
+    <div className='bg-[#F40404] font-poppins md:py-[15px]'>
       <Container>
         <div className='flex justify-between items-center'>
           <div className='w-1/5'>
