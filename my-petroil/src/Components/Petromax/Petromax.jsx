@@ -7,9 +7,9 @@ import logo4 from "../../assets/Logo4.png"
 import Container from '../Container/Container'
 const Petromax = () => {
   return (
-    <div className='py-[116px]'>
+    <div className='py-[60px] md:py-[116px]'>
      <Container>
-        <div className='flex justify-between'>
+        <div className='my-[20px] m-auto md:flex justify-between w-full'>
             <img src={logo1} alt="" />
             <img src={logo2} alt="" />
             <img src={logo3} alt="" />

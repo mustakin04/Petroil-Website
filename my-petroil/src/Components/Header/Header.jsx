@@ -6,9 +6,6 @@ import { FaFacebookF, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { CiTwitter } from "react-icons/ci";
 import Container from '../Container/Container';
 
-
-
-
 const Header = () => {
     return (
         <div className="bg-black text-white border-b-[5px] md:py-[20px] border-[#FFB800] ">
@@ -16,7 +13,7 @@ const Header = () => {
                 <div className='md:flex font-poppins '>
                     <div className='md:flex md:w-1/2'>
                         <div className='relative w-1/2 flex items-center gap-[5px] md:after:absolute after:content-[""] after:w-[2px] 
-                        after:h-[16px] after:bg-neutral-50 after:top-[4px] after:right-[40px]'>
+                        md:after:h-[16px] after:bg-neutral-50 after:top-[4px] after:right-[40px]'>
                             <CiMail className='text-xl' />
                             <p className=' text-xs font-normal'>mail@yourcompany.com</p>
                         </div>

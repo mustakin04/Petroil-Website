@@ -14,7 +14,7 @@ const Banner = () => {
             We exist since 1975 on the oil and gas industry.</h1>
           </div>
           <div className='pt-[18px] md:pt-[40px]'>
-          <a className="md:p-[13px] hover:bg-[#F40404]" href="#">LEARN MORE</a>
+          <a className="p-[13px] hover:bg-[#F40404]" href="#">LEARN MORE</a>
           </div>
         </Container>
       

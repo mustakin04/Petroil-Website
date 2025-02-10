@@ -17,7 +17,7 @@ const Footer = () => {
     return (
         <div className='bg-[#1F1F1F] py-[149px]'>
             <Container>
-                <div className='flex justify-between'>
+                <div className='md:flex justify-between'>
                     <div className='text-white '>
                         <img className=' pb-[33px]' src={log5} alt="" />
                         <div className='flex items-center'>

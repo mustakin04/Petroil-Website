@@ -7,11 +7,11 @@ import unsplash4 from "../../assets/unsplash4.png"
 
 const Image = () => {
   return (
-    <div className='flex justify-between'>
-        <img className='w-[458px] h-[426px]' src={unsplash} alt="" />
-        <img className='w-[458px] h-[426px]' src={unsplash2} alt="" />
-        <img className='w-[458px] h-[426px]'  src={unsplash3} alt="" />
-        <img className='w-[458px] h-[426px]' src={unsplash4} alt="" />
+    <div className='md:flex justify-between'>
+        <img className='md:w-[458px] md:h-[426px]' src={unsplash} alt="" />
+        <img className='md:w-[458px] md:h-[426px] py-[5px]' src={unsplash2} alt="" />
+        <img className='md:w-[458px] md:h-[426px] py-[5px]'  src={unsplash3} alt="" />
+        <img className='md:w-[458px] md:h-[426px]' src={unsplash4} alt="" />
     </div>
   )
 }
