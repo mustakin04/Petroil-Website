@@ -1,7 +1,20 @@
 🚗 Petroil
-Petroil is the frontend component of a web application designed for managing fuel-related services. It offers an intuitive and responsive user interface for interacting with backend systems.
+Petroil is the frontend part of a responsive website designed for a petroleum-related business. The application is built with modern web technologies to ensure a seamless user experience across all devices.
 
-📌 Features
-Modern, responsive UI
+🌟 Features
+✅ Fully responsive design — optimized for desktops, tablets, and mobile devices
 
-Clean and modular component structure
+🎯 Clean, modern UI/UX
+
+⚡ Fast and lightweight frontend
+
+💡 Built with best practices for scalability and performance
+
+📁 Technologies Used
+HTML5
+
+CSS3 / SCSS
+
+JavaScript / React (or whichever you used)
+
+Responsive Design Framework ( Tailwind CSS, etc.)
