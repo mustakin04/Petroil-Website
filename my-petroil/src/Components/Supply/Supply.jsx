@@ -1,13 +1,15 @@
 import React from "react";
-
+import supply from '../../assets/unsplash5.png'
+import fual from "../../assets/unsplash6.png"
 const Supply = () => {
   return (
     <div className="flex flex-col md:flex-row">
       {/* Left section */}
       <div
-        className="relative z-10 bg-supply bg-current bg-no-repeat bg-cover
+        className="relative z-10  bg-current bg-no-repeat bg-cover
           py-16 px-2 md:pl-[116px] md:pt-[147px] md:pb-[139px] md:w-1/2
           text-white"
+           style={{ backgroundImage: `url(${supply})` }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 z-0"></div>
         <h1 className="relative z-10 font-poppins font-bold text-2xl md:text-[36px] pb-5">
@@ -23,9 +25,10 @@ const Supply = () => {
 
       {/* Right section */}
       <div
-        className="relative z-10 bg-fuel bg-current bg-no-repeat bg-cover
+        className="relative z-10  bg-current bg-no-repeat bg-cover
           py-16 px-2 md:pl-[116px] md:pt-[147px] md:pb-[139px] md:w-1/2
           text-white"
+           style={{ backgroundImage: `url(${fual})` }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 z-0"></div>
         <h1 className="relative z-10 font-poppins font-bold text-2xl md:text-[36px] pb-5">

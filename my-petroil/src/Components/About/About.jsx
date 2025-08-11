@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../Container/Container";
+import image from "../../assets/unsplash7.png"
 
 const About = () => {
   return (
@@ -14,7 +15,9 @@ const About = () => {
           </div>
 
           {/* Right Side */}
-          <div className="bg-unsplash7 bg-center bg-no-repeat bg-cover flex items-center justify-center p-10 sm:p-14 lg:p-20 md:w-3/5">
+          <div className=" bg-center bg-no-repeat bg-cover flex 
+          items-center justify-center p-10 sm:p-14 lg:p-20 md:w-3/5"
+           style={{ backgroundImage: `url(${image})` }}>
             <a
               href=""
               className="font-poppins font-medium sm:font-semibold bg-white text-[#F40404] py-2 px-5 sm:py-3 sm:px-8 rounded shadow hover:bg-[#F40404] hover:text-white transition-all"
